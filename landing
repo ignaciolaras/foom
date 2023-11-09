@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio con Imagen de Fondo</title>
+    <style>
+        body {
+            background: url('https://crop-platform-static.cdn.mdstrm.com/images/5c58a34e176c2c0813b22e4b/1699556739992.png?ch=Width,Save-Data&q=30&w=1280&auto=format,compress') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+            font-family: 'Courier New', monospace; /* Tipografía de máquina de escribir */
+        }
+
+        h1 {
+            margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+            font-size: 100%; /
+        }
+
+        iframe {
+            border-radius: 12px;
+            margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+            transform: scale(0.6);
+            transform-origin: top;
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+
+        footer p {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+            margin: 5px; /* Ajusta el espacio entre los enlaces según sea necesario */
+        }
+
+        @media screen and (max-width: 600px) {
+            h1 {
+                font-size: 50%; /* Reduzco el tamaño del texto en pantallas pequeñas para mantener la proporción */
+            }
+
+            iframe {
+                transform: scale(0.8); /* Reduzco el tamaño del iframe en pantallas pequeñas */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Que la inteligencia artificial tome control de la humanidad ya dejó de ser ciencia ficción</h1>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/6w0mEwnaJKYdQJZZolS1Sn?utm_source=generator&theme=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <footer>
+        <p>
+            <a href="https://emisorpodcasting.com/" target="_blank">Emisor Podcasting</a>
+            <a href="https://sonoromedia.com/" target="_blank">Sonoro</a>
+            <a href="https://podcast.revistaanfibia.com/" target="_blank">Anfibia</a>
+            <a href="https://www.lanoficcion.com/" target="_blank">La No Ficción</a>
+            <a href="https://elextraordinario.com/" target="_blank">El Extraordinario</a>
+        </p>
+    </footer>
+</body>
+</html>
